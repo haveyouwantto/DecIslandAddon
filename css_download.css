@@ -1,7 +1,6 @@
 @charset "UTF-8";
 body{
     background: url(res/download_background.png) center center;
-    margin: 50px;
     padding: 0;
     background-size: cover;
     background-attachment: fixed;
@@ -13,7 +12,13 @@ body{
     color: rgba(255, 255, 255, 0.9);
     text-align: center;
 }
-#content{
+.title_2{
+    font-size: 40px;
+    font-family: sans-serif;
+    color: rgba(255, 255, 255, 0.9);
+    text-align: center;
+}
+.content{
     font-family: sans-serif;
     color: rgba(255, 255, 255, 0.9);
     text-align: center;
@@ -35,7 +40,7 @@ a:hover{
 a:active{
     color:rgba(255, 255, 255, 1)
 }
-#download_ul ul{
+.download_ul ul{
     margin-top: 0px;
     margin-bottom: 0px;
     margin-left: auto;
@@ -66,9 +71,4 @@ a:active{
     -webkit-transition: color .5s, background .5s;
     transition: color .5s,background .5s;
     background: rgba(255, 255, 255, 0.5);
-}
-#back_to_main_page{
-    position: relative;
-    float: right;
-    margin-top: 12%;
 }

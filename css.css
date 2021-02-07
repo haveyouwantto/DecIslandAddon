@@ -57,7 +57,7 @@ a:active{
 }
 .box_1{
     border-radius: 5px;
-    background: rgba(255,255,255,0.8);
+    background: rgba(255,255,255,0.6);
 	border:5px solid #acf5ff;
 	border-width: 0 0 0 20px;
     box-shadow: 2px 2px 2px rgba(0, 0, 0,.15);
@@ -70,7 +70,7 @@ a:active{
 }
 .box_2{
     border-radius: 5px;
-    background: rgba(255,255,255,0.8);
+    background: rgba(255,255,255,0.6);
 	border:5px solid #B5FFB2;
 	border-width: 0 0 0 20px;
     box-shadow: 2px 2px 2px rgba(0, 0, 0,.15);
@@ -83,7 +83,7 @@ a:active{
 }
 .box_3{
     border-radius: 5px;
-    background: rgba(255,255,255,0.8);
+    background: rgba(255,255,255,0.6);
 	border:5px solid #F9FF91;
 	border-width: 0 0 0 20px;
     box-shadow: 2px 2px 2px rgba(0, 0, 0,.15);
@@ -123,7 +123,7 @@ a:active{
 }
 .box_4{
     border-radius: 5px;
-    background: rgba(255,255,255,0.8);
+    background: rgba(255,255,255,0.6);
 	border:5px solid #FFAA91;
 	border-width: 0 0 0 20px;
     box-shadow: 2px 2px 2px rgba(0, 0, 0,.15);
@@ -136,7 +136,7 @@ a:active{
 }
 .box_5{
     border-radius: 5px;
-    background: rgba(255,255,255,0.8);
+    background: rgba(255,255,255,0.6);
 	border:5px solid #FFA8E9;
 	border-width: 0 0 0 20px;
     box-shadow: 2px 2px 2px rgba(0, 0, 0,.15);
