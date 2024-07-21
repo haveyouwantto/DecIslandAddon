@@ -1,6 +1,6 @@
 @charset "UTF-8";
 body{
-    background: url(res/content_introduction_background.png) center center;
+    background: no-repeat url(res/content_introduction_background.png) center center;
     margin: 50px;
     padding: 0;
     background-size: cover;
@@ -33,9 +33,9 @@ a:active{
     -moz-column-count: 3;
     -moz-column-gap: 12;
     -moz-column-fill: auto;
-    column-count: 3;
+    /*column-count: 3;
     column-gap: 12px;
-    column-fill: auto;
+    column-fill: auto;*/
 }
 .item{
     display: inline-block;

@@ -9,11 +9,10 @@ html, body{
     text-align: center;
 }
 #title{
-    size: 90%;
-    position: relative;
+    max-width: 90%;
 }
 body {
-    background: url(res/main_background.png) center center;
+    background: no-repeat url(res/main_background.png) center center;
     background-size: cover;
     margin: 0;
     padding: 0;
@@ -21,6 +20,8 @@ body {
     background-attachment: fixed;
 }
 .global{
+    display: flex;
+    flex-direction: column;
     margin: 0 auto;
     -webkit-column-count: auto;
     -webkit-column-gap: 10px;
@@ -58,23 +59,29 @@ a:active{
 .box_1{
     border-radius: 5px;
     background: rgba(255,255,255,0.6);
-	border:5px solid #acf5ff;
+	border:5px solid rgba(163, 246, 253, 0.5);
 	border-width: 0 0 0 20px;
     box-shadow: 2px 2px 2px rgba(0, 0, 0,.15);
-    margin-left: 10px;
+    margin-left: 4%;
+    margin-right: 4%;
+    display: inline-block;
 }
 .border_1{
 	border:5px solid rgba(0, 0, 0, 0.171);
 	border-width: 2px;
     box-shadow: 2px 2px 2px rgba(172, 245, 255, 0.15);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 .box_2{
     border-radius: 5px;
     background: rgba(255,255,255,0.6);
-	border:5px solid #B5FFB2;
+	border:5px solid rgba(163, 246, 253, 0.5);
 	border-width: 0 0 0 20px;
     box-shadow: 2px 2px 2px rgba(0, 0, 0,.15);
-    margin-left: 10px;
+    margin-left: 4%;
+    margin-right: 4%;
 }
 .border_2{
 	border:5px solid rgba(0, 0, 0, 0.171);
@@ -84,10 +91,11 @@ a:active{
 .box_3{
     border-radius: 5px;
     background: rgba(255,255,255,0.6);
-	border:5px solid #F9FF91;
+	border:5px solid rgba(163, 246, 253, 0.5);
 	border-width: 0 0 0 20px;
     box-shadow: 2px 2px 2px rgba(0, 0, 0,.15);
-    margin-left: 10px;
+    margin-left: 4%;
+    margin-right: 4%;
 }
 .border_3{
 	border:5px solid rgba(0, 0, 0, 0.171);
@@ -97,7 +105,6 @@ a:active{
 .list_1{
     margin: 0;
     padding: 0;
-    padding-bottom: 5%;
     list-style: none;
 }
 .list_1_li{
@@ -107,7 +114,8 @@ a:active{
     width: 130px;
     float: left;
     color: #E2E2E2;
-    padding: 0.8%;
+    padding: 10px;
+    margin: 5px;
     margin-right: 10px;
 }
 .list_1_li:nth-child(2n+1){
@@ -124,10 +132,11 @@ a:active{
 .box_4{
     border-radius: 5px;
     background: rgba(255,255,255,0.6);
-	border:5px solid #FFAA91;
+	border:5px solid rgba(163, 246, 253, 0.5);
 	border-width: 0 0 0 20px;
     box-shadow: 2px 2px 2px rgba(0, 0, 0,.15);
-    margin-left: 10px;
+    margin-left: 4%;
+    margin-right: 4%;
 }
 .border_4{
 	border:5px solid rgba(0, 0, 0, 0.171);
@@ -137,10 +146,11 @@ a:active{
 .box_5{
     border-radius: 5px;
     background: rgba(255,255,255,0.6);
-	border:5px solid #FFA8E9;
+	border:5px solid rgba(163, 246, 253, 0.5);
 	border-width: 0 0 0 20px;
     box-shadow: 2px 2px 2px rgba(0, 0, 0,.15);
-    margin-left: 10px;
+    margin-left: 4%;
+    margin-right: 4%;
 }
 .border_5{
 	border:5px solid rgba(0, 0, 0, 0.171);
